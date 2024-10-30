@@ -186,6 +186,7 @@ function App() {
       <header style={headerStyle}>
         <h1 style={titleStyle}>Eric Cesar Da Silva Junior</h1>
         <p style={subtitleStyle}><FaLaptopCode /> Analista de Suporte | Graduado em Análise e Desenvolvimento de Sistemas</p>
+        <p style={subtitleStyle}> (19) 98322-4023 | eric.faria2003@gmail.com</p>
       </header>
 
       <section id="about" style={sectionStyle}>

@@ -9,7 +9,7 @@
 
 @media (max-width: 768px) {
   header h1 {
-    font-size: 24px !important; /* Força o valor do tamanho da fonte */
+    font-size: 20px !important; /* Força o valor do tamanho da fonte */
     line-height: 1.2 !important;
     text-align: center !important;
   }
@@ -22,14 +22,6 @@
     margin: 5px 0 !important;
   }
 }
-
-  header p {
-    font-size: 10px!important; /* Ajuste menor para o subtítulo */
-    line-height: 1.4!important;
-    text-align: center!important;
-    max-width: 100%!important;
-    margin: 5px 0!important;
-  }
 
 
 @media (prefers-reduced-motion: no-preference) {

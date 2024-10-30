@@ -24,23 +24,22 @@
   }
 }
 
-/* Ajuste o padding do cabeçalho e o tamanho da fonte no celular */
 @media (max-width: 768px) {
   header {
-    padding: 20px 10px;
+    padding: 15px 10px;
   }
 
-  /* Ajuste o tamanho da fonte do título e do subtítulo */
   header h1 {
-    font-size: 1.5rem;
-    line-height: 1.2; /* reduz o espaçamento entre linhas */
+    font-size: 1.3rem; /* Reduz ainda mais o tamanho da fonte */
+    line-height: 1.1; /* Reduz o espaçamento entre linhas */
   }
 
   header p {
-    font-size: 0.9rem;
-    line-height: 1.2; /* reduz o espaçamento entre linhas */
+    font-size: 0.8rem; /* Ajuste menor para o subtítulo */
+    line-height: 1.2; /* Reduz o espaçamento entre linhas */
   }
 }
+
 
 
   /* Ajuste o tamanho do botão no currículo */

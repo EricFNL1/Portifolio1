@@ -12,6 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* Para telas pequenas, mostre a imagem em cima do texto */
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column; /* Alterar para coluna para empilhar a imagem e o texto */
+  }
+
+  .profile-img {
+    order: -1; /* Faça a imagem aparecer primeiro */
+    margin-bottom: 20px; /* Adicione uma margem inferior para espaçamento */
+  }
+}
+
 
 .App-header {
   background-color: #282c34;

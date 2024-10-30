@@ -30,13 +30,18 @@
     padding: 20px 10px;
   }
 
+  /* Ajuste o tamanho da fonte do título e do subtítulo */
   header h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 1.2; /* reduz o espaçamento entre linhas */
   }
 
   header p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2; /* reduz o espaçamento entre linhas */
   }
+}
+
 
   /* Ajuste o tamanho do botão no currículo */
   #curriculo a {

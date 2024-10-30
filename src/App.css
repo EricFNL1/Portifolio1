@@ -15,7 +15,7 @@
   }
 
   header p {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 1.4 !important;
     text-align: center !important;
     max-width: 100%;
@@ -24,11 +24,11 @@
 }
 
   header p {
-    font-size: 14px; /* Ajuste menor para o subtítulo */
-    line-height: 1.4;
-    text-align: center;
-    max-width: 100%;
-    margin: 5px 0;
+    font-size: 10px!important; /* Ajuste menor para o subtítulo */
+    line-height: 1.4!important;
+    text-align: center!important;
+    max-width: 100%!important;
+    margin: 5px 0!important;
   }
 
 

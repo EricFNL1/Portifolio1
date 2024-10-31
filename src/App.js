@@ -264,6 +264,13 @@ function App() {
               </div>
             </div>
             <div className="card" style={cardStyle}>
+              <img src="img/certificado-aws.png" style={cardImageStyle} alt="Certificado Curso AWS" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>AWS Cloud Practitioner</h5>
+                <p>Certificado de conclusão do curso de AWS Cloud Practitioner.</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
               <img src="img/suporteeseguranca.png" style={cardImageStyle} alt="Certificado Curso Network Support" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Network Support and Security</h5>
@@ -282,13 +289,6 @@ function App() {
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Imersão Mikrotik</h5>
                 <p>Certificado de conclusão do curso de Imersão Mikrotik.</p>
-              </div>
-            </div>
-            <div className="card" style={cardStyle}>
-              <img src="img/certificado-aws.png" style={cardImageStyle} alt="Certificado Curso AWS" />
-              <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>AWS Cloud Practitioner</h5>
-                <p>Certificado de conclusão do curso de AWS Cloud Practitioner.</p>
               </div>
             </div>
           </Slider>

@@ -235,6 +235,13 @@ function App() {
               </div>
             </div>
             <div className="card" style={cardStyle}>
+              <img src="img/bd.png" style={cardImageStyle} alt="Manutenção de Computadores" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>Criação e consultas em Banco de dados MySQL</h5>
+                <p>Análise e manuseio de dados.</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
               <img src="img/pc-limp.jpg" style={cardImageStyle} alt="Manutenção de Computadores" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Manutenção de Computadores</h5>

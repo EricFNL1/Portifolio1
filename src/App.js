@@ -314,7 +314,7 @@ function App() {
     <h2 style={{ color: '#007bff', marginBottom: '20px', fontSize: '2rem', fontWeight: '600' }}>Currículo</h2>
     <p style={{ fontSize: '1.1rem', marginBottom: '30px', lineHeight: '1.6', color: darkMode ? '#e0e0e0' : '#000' }}>Abaixo você pode visualizar ou baixar meu currículo completo. Sinta-se à vontade para entrar em contato se precisar de mais informações.</p>
     <a 
-            href="doc/Eric Cesar da Silva Junior.pdf" 
+            href="doc/Eric Cesar da Silva Junior editavel.pdf" 
             style={{ 
               ...buttonStyle, 
               backgroundColor: darkMode ? '#007bff' : '#0056b3', 

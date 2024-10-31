@@ -289,12 +289,30 @@ function App() {
       </section>
 
       <section id="curriculo" style={{ ...sectionStyle, backgroundColor: darkMode ? '#2c2c2c' : '#f0f4f8', padding: '20px', textAlign: 'center' }}>
-        <div style={containerStyle} className="text-center">
-          <h2 style={{ color: '#007bff', marginBottom: '20px', fontSize: '2rem', fontWeight: '600' }}>Currículo</h2>
-          <p style={{ fontSize: '1.1rem', marginBottom: '30px', lineHeight: '1.6', color: darkMode ? '#e0e0e0' : '#000' }}>Abaixo você pode visualizar ou baixar meu currículo completo. Sinta-se à vontade para entrar em contato se precisar de mais informações.</p>
-          <a href="doc/Eric Cesar da Silva Junior.pdf" style={{ ...buttonStyle, backgroundColor: darkMode ? '#007bff' : '#0056b3', color: '#fff' }} onMouseOver={(e) => e.target.style.backgroundColor = darkMode ? '#0056b3' : '#004494'} onMouseOut={(e) => e.target.style.backgroundColor = darkMode ? '#007bff' : '#0056b3'} download>Baixar Currículo (PDF) <FaDownload style={{ marginLeft: '8px' }} /></a>
-        </div>
-      </section>
+  <div style={containerStyle} className="text-center">
+    <h2 style={{ color: '#007bff', marginBottom: '20px', fontSize: '2rem', fontWeight: '600' }}>Currículo</h2>
+    <p style={{ fontSize: '1.1rem', marginBottom: '30px', lineHeight: '1.6', color: darkMode ? '#e0e0e0' : '#000' }}>Abaixo você pode visualizar ou baixar meu currículo completo. Sinta-se à vontade para entrar em contato se precisar de mais informações.</p>
+    <a 
+      href="doc/Eric Cesar da Silva Junior.pdf" 
+      style={{ 
+        ...buttonStyle, 
+        backgroundColor: darkMode ? '#007bff' : '#0056b3', 
+        color: '#fff',
+        padding: '10px 20px', // Mantive o padding para um tamanho agradável
+        width: '200px',       // Define uma largura fixa para reduzir o tamanho horizontalmente
+        display: 'inline-block', // Isso garante que a largura seja aplicada corretamente
+        textAlign: 'center'   // Para manter o texto centralizado
+      }} 
+      onMouseOver={(e) => e.target.style.backgroundColor = darkMode ? '#0056b3' : '#004494'} 
+      onMouseOut={(e) => e.target.style.backgroundColor = darkMode ? '#007bff' : '#0056b3'} 
+      download
+    >
+      Baixar Currículo (PDF) <FaDownload style={{ marginLeft: '8px' }} />
+    </a>
+  </div>
+</section>
+
+
 
       <section id="contact" style={sectionStyle}>
         <div style={containerStyle} className="text-center">

@@ -183,7 +183,7 @@ function App() {
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
       </div>
-      <header style={headerStyle}>
+      <header style={headerStyle} className="gradient-effect">
         <h1 style={titleStyle}>Eric Cesar Da Silva Junior</h1>
         <p style={subtitleStyle}><FaLaptopCode /> Analista de Suporte | Graduado em Análise e Desenvolvimento de Sistemas</p>
         <p style={subtitleStyle}> (19) 98322-4023 | eric.faria2003@gmail.com</p>
@@ -335,7 +335,7 @@ function App() {
         </div>
       </section>
 
-      <footer style={footerStyle}>
+      <footer style={footerStyle} className="gradient-effect">
         <p>&copy; 2024 - Eric Cesar Da Silva Junior. Todos os direitos reservados.</p>
       </footer>
     </div>

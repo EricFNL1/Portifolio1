@@ -217,21 +217,21 @@ function App() {
               <img src="img/Projeto-Nexus.png" style={cardImageStyle} alt="Projeto Website Nexus" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Website Nexus</h5>
-                <p>Projeto de website para empresa de tecnologia.</p>
+                <p>Projeto de website para empresa de tecnologia feito com bootstrap e laravel.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
               <img src="img/mikrotik.png" style={cardImageStyle} alt="Configurações Mikrotik" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Configurações de Rede Mikrotik</h5>
-                <p>Configuração de equipamentos de rede com Mikrotik.</p>
+                <p>Configuração de equipamentos de rede com Mikrotik para solucionar e implementar uma conexão de qualidade.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
               <img src="img/Aurus-ERP.png" style={cardImageStyle} alt="AURUS ERP" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Aurus ERP</h5>
-                <p>Projeto de sistema ERP para gestão geral.</p>
+                <p>Projeto de sistema ERP para gestão geral, feito com react no Front-end e Laravel no Back-end.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>

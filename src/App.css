@@ -59,6 +59,19 @@
   animation: gradient-animation 10s ease infinite;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 
   /* Ajuste o tamanho do botão no currículo */
   #curriculo a {

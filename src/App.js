@@ -250,7 +250,7 @@ function App() {
           <h2 style={{ textAlign: 'center', color: '#007bff', marginBottom: '40px' }}>Certificados</h2>
           <Slider {...sliderSettings}>
             <div className="card" style={cardStyle}>
-              <img src="img/Diploma-Faculdade.png" style={cardImageStyle} alt="Certificado Curso React" />
+              <img src="img/Diploma-Faculdade.png" style={cardImageStyle} alt="Certificado Curso ADS" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Certificado Faculdade</h5>
                 <p>Certificado de conclusão de graduação de Análise e Desenvolvimento de Sistemas.</p>
@@ -264,24 +264,31 @@ function App() {
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/suporteeseguranca.png" style={cardImageStyle} alt="Certificado Curso Laravel" />
+              <img src="img/suporteeseguranca.png" style={cardImageStyle} alt="Certificado Curso Network Support" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Network Support and Security</h5>
                 <p>Certificado de conclusão do curso de Network Support and Security.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/Curso-Desenvolvedor-Front-End-CPS.png" style={cardImageStyle} alt="Certificado Curso Laravel" />
+              <img src="img/Curso-Desenvolvedor-Front-End-CPS.png" style={cardImageStyle} alt="Certificado Curso Front-End" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Desenvolvedor Front-End</h5>
                 <p>Certificado de reconhecimento adquirido na Fatec.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/Imersão-Mikrotik.png" style={cardImageStyle} alt="Certificado Curso Laravel" />
+              <img src="img/Imersão-Mikrotik.png" style={cardImageStyle} alt="Certificado Curso Mikrotik" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Imersão Mikrotik</h5>
                 <p>Certificado de conclusão do curso de Imersão Mikrotik.</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
+              <img src="img/certificado-aws.png" style={cardImageStyle} alt="Certificado Curso AWS" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>AWS Cloud Practitioner</h5>
+                <p>Certificado de conclusão do curso de AWS Cloud Practitioner.</p>
               </div>
             </div>
           </Slider>

@@ -217,7 +217,7 @@ function App() {
               <img src="img/Projeto-Nexus.png" style={cardImageStyle} alt="Projeto Website Nexus" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Website Nexus</h5>
-                <p>Projeto de website para empresa de tecnologia feito com bootstrap e laravel.</p>
+                <p>Projeto de website para empresa de tecnologia feito com Bootstrap e Laravel.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
@@ -239,6 +239,13 @@ function App() {
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Criação e consultas em Banco de dados MySQL</h5>
                 <p>Análise e manuseio de dados.</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
+              <img src="img/websiteterapiasorientais.png" style={cardImageStyle} alt="Website De agendmaneto" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>Projeto Website de agendamentos de serviços, feito com Bootstrap e Laravel.</h5>
+                <p>Análise e manuseio de dados.</p> 
               </div>
             </div>
             <div className="card" style={cardStyle}>

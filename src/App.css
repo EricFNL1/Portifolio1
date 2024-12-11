@@ -54,7 +54,7 @@
 }
 
 .gradient-effect {
-  background: linear-gradient(45deg, #007bff, #00c6ff, #76cccc, #0f88eb);
+  background: linear-gradient(45deg, #007bff, #0099ff, #078fff, #0f88eb);
   background-size: 300% 300%;
   animation: gradient-animation 10s ease infinite;
 }

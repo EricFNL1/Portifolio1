@@ -228,6 +228,13 @@ function App() {
               </div>
             </div>
             <div className="card" style={cardStyle}>
+              <img src="img/smartgrow.jpg" style={cardImageStyle} alt="Configurações Mikrotik" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>Sistema integrado de estufa inteligente</h5>
+                <p>Projeto feito em Laravel e Bootstrap com integração a IOT, monitoramento e armazenamento de dados, consumo de API e exibição de relatórios</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
               <img src="img/Aurus-ERP.png" style={cardImageStyle} alt="AURUS ERP" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Aurus ERP</h5>
@@ -363,10 +370,14 @@ function App() {
         </div>
       </section>
 
+      
+
       <footer style={footerStyle} className="gradient-effect">
         <p>&copy; 2024 - Eric Cesar Da Silva Junior. Todos os direitos reservados.</p>
       </footer>
     </div>
+
+    
   );
 } 
 

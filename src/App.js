@@ -371,6 +371,12 @@ function App() {
       </section>
 
       
+      <div
+  className="whatsapp-float"
+  onClick={() => window.open('https://wa.me/19983224023', '_blank')}
+>
+  <FaWhatsapp size={30} />
+</div>
 
       <footer style={footerStyle} className="gradient-effect">
         <p>&copy; 2024 - Eric Cesar Da Silva Junior. Todos os direitos reservados.</p>

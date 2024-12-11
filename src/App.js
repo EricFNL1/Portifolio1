@@ -235,6 +235,13 @@ function App() {
               </div>
             </div>
             <div className="card" style={cardStyle}>
+              <img src="img/crimpagem.jpg" style={cardImageStyle} alt="AURUS ERP" />
+              <div style={cardBodyStyle}>
+                <h5 style={{ marginBottom: '15px' }}>Crimpagem de cabos e Infraestrutura</h5>
+                <p>Crimpagem de cabos Cat e boas práticas no gerenciamento da infraestrutura.</p>
+              </div>
+            </div>
+            <div className="card" style={cardStyle}>
               <img src="img/Aurus-ERP.png" style={cardImageStyle} alt="AURUS ERP" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Aurus ERP</h5>

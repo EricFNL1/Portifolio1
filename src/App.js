@@ -259,7 +259,7 @@ function App() {
               <img src="img/websiteterapiasorientais.png" style={cardImageStyle} alt="Website De agendmaneto" />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Projeto Website de agendamentos de serviços, feito com Bootstrap e Laravel.</h5>
-                <p>Análise e manuseio de dados.</p> 
+                <p>Criado com Laravel e Bootstrap</p> 
               </div>
             </div>
             <div className="card" style={cardStyle}>

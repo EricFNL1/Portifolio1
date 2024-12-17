@@ -1,8 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { FaLinkedin, FaWhatsapp, FaInstagram, FaEnvelope, FaLaptopCode, FaSun, FaMoon, FaDownload } from 'react-icons/fa';
+import {
+  FaLinkedin,
+  FaWhatsapp,
+  FaInstagram,
+  FaEnvelope,
+  FaLaptopCode,
+  FaSun,
+  FaMoon,
+  FaDownload,
+} from 'react-icons/fa';
 import './App.css';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 function App() {
@@ -83,7 +92,8 @@ function App() {
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
-    document.body.style.transition = 'background-color 0.5s ease, color 0.5s ease';
+    document.body.style.transition =
+      'background-color 0.5s ease, color 0.5s ease';
     document.body.style.backgroundColor = darkMode ? '#fff' : '#333';
     document.body.style.color = darkMode ? '#000' : '#fff';
   };
@@ -91,7 +101,7 @@ function App() {
   const containerStyle = {
     maxWidth: '1200px',
     margin: '0 auto',
-    padding: '20px'
+    padding: '20px',
   };
 
   const headerStyle = {
@@ -99,21 +109,21 @@ function App() {
     color: 'white',
     padding: '40px',
     textAlign: 'center',
-    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)'
+    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)',
   };
 
   const titleStyle = {
     fontSize: '2.5rem',
-    fontWeight: '700'
+    fontWeight: '700',
   };
 
   const subtitleStyle = {
     fontSize: '1.2rem',
-    fontWeight: '300'
+    fontWeight: '300',
   };
 
   const sectionStyle = {
-    padding: '40px 0'
+    padding: '40px 0',
   };
 
   const cardStyle = {
@@ -123,7 +133,7 @@ function App() {
     overflow: 'hidden',
     marginBottom: '20px',
     transition: 'transform 0.5s ease-in-out',
-    textAlign: 'center'
+    textAlign: 'center',
   };
 
   const cardImageStyle = {
@@ -131,11 +141,11 @@ function App() {
     height: '200px',
     objectFit: 'cover',
     maxWidth: '300px',
-    margin: '0 auto'
+    margin: '0 auto',
   };
 
   const cardBodyStyle = {
-    padding: '20px'
+    padding: '20px',
   };
 
   const footerStyle = {
@@ -143,7 +153,7 @@ function App() {
     color: 'white',
     padding: '20px',
     textAlign: 'center',
-    marginTop: '40px'
+    marginTop: '40px',
   };
 
   const buttonStyle = {
@@ -154,7 +164,7 @@ function App() {
     borderRadius: '5px',
     textDecoration: 'none',
     fontSize: '1rem',
-    transition: 'background-color 0.3s'
+    transition: 'background-color 0.3s',
   };
 
   const sliderSettings = {
@@ -179,93 +189,209 @@ function App() {
   return (
     <div style={containerStyle}>
       <div style={{ textAlign: 'right', padding: '10px' }}>
-        <button onClick={toggleTheme} style={{ backgroundColor: 'transparent', border: 'none', cursor: 'pointer', color: darkMode ? '#fff' : '#000', fontSize: '24px', transition: 'color 0.3s ease' }}>
+        <button
+          onClick={toggleTheme}
+          style={{
+            backgroundColor: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            color: darkMode ? '#fff' : '#000',
+            fontSize: '24px',
+            transition: 'color 0.3s ease',
+          }}
+        >
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>
       </div>
       <header style={headerStyle} className="gradient-effect">
         <h1 style={titleStyle}>Eric Cesar Da Silva Junior</h1>
-        <p style={subtitleStyle}><FaLaptopCode /> Analista de Suporte | Graduado em Análise e Desenvolvimento de Sistemas</p>
+        <p style={subtitleStyle}>
+          <FaLaptopCode /> Analista de Suporte | Graduado em Análise e
+          Desenvolvimento de Sistemas
+        </p>
         <p style={subtitleStyle}> (19) 98322-4023 | eric.faria2003@gmail.com</p>
       </header>
 
       <section id="about" style={sectionStyle}>
         <div style={containerStyle}>
-          <h2 style={{ textAlign: 'center', color: '#007bff', marginBottom: '40px' }}>Sobre Mim</h2>
-          <div className="row profile-section" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '20px' }}>
-  <div className="col-md-6" style={{ flex: '1', textAlign: 'center' }}>
-    <img src="img/eric-profile.jpg" className="profile-img" style={{ borderRadius: '50%', width: '100%', maxWidth: '300px', boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }} alt="Foto de Eric Cesar Da Silva Junior" />
-  </div>
-  <div className="col-md-6" style={{ flex: '2', textAlign: 'left' }}>
-    <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-      Sou um profissional apaixonado por tecnologia, com formação em Análise e Desenvolvimento de Sistemas e atualmente cursando Desenvolvimento de Software Multiplataforma na Fatec. Durante minha carreira, adquiri uma sólida base em infraestrutura de redes e resolução de problemas técnicos, além de desenvolver habilidades em diversas tecnologias de software.
-    </p>
-    <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
-    Estou em busca de oportunidades na área de tecnologia, seja em Suporte, TI ou Desenvolvimento de Software. Tenho experiência em suporte de N1 e N2, infraestrutura e redes de computadores, e participei de projetos de desenvolvimento web com foco em Laravel.
-    </p>
-  </div>
-</div>
+          <h2
+            style={{
+              textAlign: 'center',
+              color: '#007bff',
+              marginBottom: '40px',
+            }}
+          >
+            Sobre Mim
+          </h2>
+          <div
+            className="row profile-section"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '20px',
+            }}
+          >
+            <div
+              className="col-md-6"
+              style={{ flex: '1', textAlign: 'center' }}
+            >
+              <img
+                src="img/eric-profile.jpg"
+                className="profile-img"
+                style={{
+                  borderRadius: '50%',
+                  width: '100%',
+                  maxWidth: '300px',
+                  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+                }}
+                alt="Foto de Eric Cesar Da Silva Junior"
+              />
+            </div>
+            <div className="col-md-6" style={{ flex: '2', textAlign: 'left' }}>
+              <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+                Sou um profissional apaixonado por tecnologia, com formação em
+                Análise e Desenvolvimento de Sistemas e atualmente cursando
+                Desenvolvimento de Software Multiplataforma na Fatec. Durante
+                minha carreira, adquiri uma sólida base em infraestrutura de
+                redes e resolução de problemas técnicos, além de desenvolver
+                habilidades em diversas tecnologias de software.
+              </p>
+              <p style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
+                Estou em busca de oportunidades na área de tecnologia, seja em
+                Suporte, TI ou Desenvolvimento de Software. Tenho experiência em
+                suporte de N1 e N2, infraestrutura e redes de computadores, e
+                participei de projetos de desenvolvimento web com foco em
+                Laravel.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="portfolio" style={sectionStyle}>
         <div style={containerStyle}>
-          <h2 style={{ textAlign: 'center', color: '#007bff' }}>Meu Portfólio</h2>
-          <p style={{ textAlign: 'center', marginBottom: '50px' }}>(Clique nas imagens para visualizar em tela cheia)</p>
+          <h2 style={{ textAlign: 'center', color: '#007bff' }}>
+            Meu Portfólio
+          </h2>
+          <p style={{ textAlign: 'center', marginBottom: '50px' }}>
+            (Clique nas imagens para visualizar em tela cheia)
+          </p>
           <Slider {...sliderSettings}>
             <div className="card" style={cardStyle}>
-              <img src="img/Projeto-Nexus.png" style={cardImageStyle} alt="Projeto Website Nexus" />
+              <img
+                src="img/Projeto-Nexus.png"
+                style={cardImageStyle}
+                alt="Projeto Website Nexus"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Website Nexus</h5>
-                <p>Projeto de website para empresa de tecnologia feito com Bootstrap e Laravel.</p>
+                <p>
+                  Projeto de website para empresa de tecnologia feito com
+                  Bootstrap e Laravel.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/mikrotik.png" style={cardImageStyle} alt="Configurações Mikrotik" />
+              <img
+                src="img/mikrotik.png"
+                style={cardImageStyle}
+                alt="Configurações Mikrotik"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Configurações de Rede Mikrotik</h5>
-                <p>Configuração de equipamentos de rede com Mikrotik para solucionar e implementar uma conexão de qualidade.</p>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Configurações de Rede Mikrotik
+                </h5>
+                <p>
+                  Configuração de equipamentos de rede com Mikrotik para
+                  solucionar e implementar uma conexão de qualidade.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/smartgrow.jpg" style={cardImageStyle} alt="Configurações Mikrotik" />
+              <img
+                src="img/smartgrow.jpg"
+                style={cardImageStyle}
+                alt="Configurações Mikrotik"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Sistema integrado de estufa inteligente</h5>
-                <p>Projeto feito em Laravel e Bootstrap com integração a IOT, monitoramento e armazenamento de dados, consumo de API e exibição de relatórios</p>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Sistema integrado de estufa inteligente
+                </h5>
+                <p>
+                  Projeto feito em Laravel e Bootstrap com integração a IOT,
+                  monitoramento e armazenamento de dados, consumo de API e
+                  exibição de relatórios
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/crimpagem.jpg" style={cardImageStyle} alt="AURUS ERP" />
+              <img
+                src="img/crimpagem.jpg"
+                style={cardImageStyle}
+                alt="AURUS ERP"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Crimpagem de cabos e Infraestrutura</h5>
-                <p>Crimpagem de cabos Cat e boas práticas no gerenciamento da infraestrutura.</p>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Crimpagem de cabos e Infraestrutura
+                </h5>
+                <p>
+                  Crimpagem de cabos Cat e boas práticas no gerenciamento da
+                  infraestrutura.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/Aurus-ERP.png" style={cardImageStyle} alt="AURUS ERP" />
+              <img
+                src="img/Aurus-ERP.png"
+                style={cardImageStyle}
+                alt="AURUS ERP"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Aurus ERP</h5>
-                <p>Projeto de sistema ERP para gestão geral, feito com react no Front-end e Laravel no Back-end.</p>
+                <p>
+                  Projeto de sistema ERP para gestão geral, feito com react no
+                  Front-end e Laravel no Back-end.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/bd.png" style={cardImageStyle} alt="Manutenção de Computadores" />
+              <img
+                src="img/bd.png"
+                style={cardImageStyle}
+                alt="Manutenção de Computadores"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Criação e consultas em Banco de dados MySQL</h5>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Criação e consultas em Banco de dados MySQL
+                </h5>
                 <p>Análise e manuseio de dados.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/websiteterapiasorientais.png" style={cardImageStyle} alt="Website De agendmaneto" />
+              <img
+                src="img/websiteterapiasorientais.png"
+                style={cardImageStyle}
+                alt="Website De agendmaneto"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Projeto Website de agendamentos de serviços, feito com Bootstrap e Laravel.</h5>
-                <p>Criado com Laravel e Bootstrap</p> 
+                <h5 style={{ marginBottom: '15px' }}>
+                  Projeto Website de agendamentos de serviços, feito com
+                  Bootstrap e Laravel.
+                </h5>
+                <p>Criado com Laravel e Bootstrap</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/pc-limp.jpg" style={cardImageStyle} alt="Manutenção de Computadores" />
+              <img
+                src="img/pc-limp.jpg"
+                style={cardImageStyle}
+                alt="Manutenção de Computadores"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Manutenção de Computadores</h5>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Manutenção de Computadores
+                </h5>
                 <p>Formatação, Limpeza, Montagem e cuidados gerais.</p>
               </div>
             </div>
@@ -275,45 +401,89 @@ function App() {
 
       <section id="certificados" style={sectionStyle}>
         <div style={containerStyle}>
-          <h2 style={{ textAlign: 'center', color: '#007bff', marginBottom: '40px' }}>Certificados</h2>
+          <h2
+            style={{
+              textAlign: 'center',
+              color: '#007bff',
+              marginBottom: '40px',
+            }}
+          >
+            Certificados
+          </h2>
           <Slider {...sliderSettings}>
             <div className="card" style={cardStyle}>
-              <img src="img/Diploma-Faculdade.png" style={cardImageStyle} alt="Certificado Curso ADS" />
+              <img
+                src="img/Diploma-Faculdade.png"
+                style={cardImageStyle}
+                alt="Certificado Curso ADS"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Certificado Faculdade</h5>
-                <p>Certificado de conclusão de graduação de Análise e Desenvolvimento de Sistemas.</p>
+                <p>
+                  Certificado de conclusão de graduação de Análise e
+                  Desenvolvimento de Sistemas.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/js-certificado.png" style={cardImageStyle} alt="Certificado Curso JavaScript" />
+              <img
+                src="img/js-certificado.png"
+                style={cardImageStyle}
+                alt="Certificado Curso JavaScript"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Curso JavaScript</h5>
                 <p>Certificado de conclusão do curso de JavaScript.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/certificado-aws.png" style={cardImageStyle} alt="Certificado Curso AWS" />
+              <img
+                src="img/certificado-aws.png"
+                style={cardImageStyle}
+                alt="Certificado Curso AWS"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>AWS Cloud Practitioner</h5>
-                <p>Certificado de conclusão do curso de AWS Cloud Practitioner.</p>
+                <p>
+                  Certificado de conclusão do curso de AWS Cloud Practitioner.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/suporteeseguranca.png" style={cardImageStyle} alt="Certificado Curso Network Support" />
+              <img
+                src="img/suporteeseguranca.png"
+                style={cardImageStyle}
+                alt="Certificado Curso Network Support"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Network Support and Security</h5>
-                <p>Certificado de conclusão do curso de Network Support and Security.</p>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Network Support and Security
+                </h5>
+                <p>
+                  Certificado de conclusão do curso de Network Support and
+                  Security.
+                </p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/Curso-Desenvolvedor-Front-End-CPS.png" style={cardImageStyle} alt="Certificado Curso Front-End" />
+              <img
+                src="img/Curso-Desenvolvedor-Front-End-CPS.png"
+                style={cardImageStyle}
+                alt="Certificado Curso Front-End"
+              />
               <div style={cardBodyStyle}>
-                <h5 style={{ marginBottom: '15px' }}>Desenvolvedor Front-End</h5>
+                <h5 style={{ marginBottom: '15px' }}>
+                  Desenvolvedor Front-End
+                </h5>
                 <p>Certificado de reconhecimento adquirido na Fatec.</p>
               </div>
             </div>
             <div className="card" style={cardStyle}>
-              <img src="img/Imersão-Mikrotik.png" style={cardImageStyle} alt="Certificado Curso Mikrotik" />
+              <img
+                src="img/Imersão-Mikrotik.png"
+                style={cardImageStyle}
+                alt="Certificado Curso Mikrotik"
+              />
               <div style={cardBodyStyle}>
                 <h5 style={{ marginBottom: '15px' }}>Imersão Mikrotik</h5>
                 <p>Certificado de conclusão do curso de Imersão Mikrotik.</p>
@@ -323,76 +493,146 @@ function App() {
         </div>
       </section>
 
-      <section id="curriculo" style={{ ...sectionStyle, backgroundColor: darkMode ? '#2c2c2c' : '#f0f4f8', padding: '20px', textAlign: 'center' }}>
-  <div style={containerStyle} className="text-center">
-    <h2 style={{ color: '#007bff', marginBottom: '20px', fontSize: '2rem', fontWeight: '600' }}>Currículo</h2>
-    <p style={{ fontSize: '1.1rem', marginBottom: '30px', lineHeight: '1.6', color: darkMode ? '#e0e0e0' : '#000' }}>Abaixo você pode visualizar ou baixar meu currículo completo. Sinta-se à vontade para entrar em contato se precisar de mais informações.</p>
-    <a 
-            href="doc/Eric Cesar da Silva Junior editavel.pdf" 
-            style={{ 
-              ...buttonStyle, 
-              backgroundColor: darkMode ? '#007bff' : '#0056b3', 
+      <section
+        id="curriculo"
+        style={{
+          ...sectionStyle,
+          backgroundColor: darkMode ? '#2c2c2c' : '#f0f4f8',
+          padding: '20px',
+          textAlign: 'center',
+        }}
+      >
+        <div style={containerStyle} className="text-center">
+          <h2
+            style={{
+              color: '#007bff',
+              marginBottom: '20px',
+              fontSize: '2rem',
+              fontWeight: '600',
+            }}
+          >
+            Currículo
+          </h2>
+          <p
+            style={{
+              fontSize: '1.1rem',
+              marginBottom: '30px',
+              lineHeight: '1.6',
+              color: darkMode ? '#e0e0e0' : '#000',
+            }}
+          >
+            Abaixo você pode visualizar ou baixar meu currículo completo.
+            Sinta-se à vontade para entrar em contato se precisar de mais
+            informações.
+          </p>
+          <a
+            href="doc/Eric Cesar da Silva Junior editavel.pdf"
+            style={{
+              ...buttonStyle,
+              backgroundColor: darkMode ? '#007bff' : '#0056b3',
               color: '#fff',
               padding: '10px 20px', // Mantive o padding para um tamanho agradável
-              width: '200px',       // Define uma largura fixa para reduzir o tamanho horizontalmente
+              width: '200px', // Define uma largura fixa para reduzir o tamanho horizontalmente
               display: 'inline-block', // Isso garante que a largura seja aplicada corretamente
-              textAlign: 'center',   // Para manter o texto centralizado
-              transition: 'transform 0.3s ease' // Adiciona uma transição para a escala
-            }} 
+              textAlign: 'center', // Para manter o texto centralizado
+              transition: 'transform 0.3s ease', // Adiciona uma transição para a escala
+            }}
             onMouseOver={(e) => {
               e.target.style.backgroundColor = darkMode ? '#0056b3' : '#004494';
               e.target.style.transform = 'scale(1.1)';
-            }} 
+            }}
             onMouseOut={(e) => {
               e.target.style.backgroundColor = darkMode ? '#007bff' : '#0056b3';
               e.target.style.transform = 'scale(1)';
-            }} 
+            }}
             download
           >
             Baixar Currículo (PDF) <FaDownload style={{ marginLeft: '8px' }} />
           </a>
-  </div>
-</section>
-
-
+        </div>
+      </section>
 
       <section id="contact" style={sectionStyle}>
         <div style={containerStyle} className="text-center">
-          <h2 style={{ color: '#007bff', marginBottom: '20px', textAlign: 'center' }}>Contato</h2>
-          <p style={{ textAlign: 'center' }}>Entre em contato comigo através das redes sociais ou e-mail:</p>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-            <a href="https://www.linkedin.com/in/ericf12/" style={{ display: 'inline-block', fontSize: '2.5rem', color: '#0077b5' }}>
+          <h2
+            style={{
+              color: '#007bff',
+              marginBottom: '20px',
+              textAlign: 'center',
+            }}
+          >
+            Contato
+          </h2>
+          <p style={{ textAlign: 'center' }}>
+            Entre em contato comigo através das redes sociais ou e-mail:
+          </p>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              gap: '20px',
+              flexWrap: 'wrap',
+            }}
+          >
+            <a
+              href="https://www.linkedin.com/in/ericf12/"
+              style={{
+                display: 'inline-block',
+                fontSize: '2.5rem',
+                color: '#0077b5',
+              }}
+            >
               <FaLinkedin />
             </a>
-            <a href="https://wa.me/19983224023" style={{ display: 'inline-block', fontSize: '2.5rem', color: '#25D366' }}>
+            <a
+              href="https://wa.me/19983224023"
+              style={{
+                display: 'inline-block',
+                fontSize: '2.5rem',
+                color: '#25D366',
+              }}
+            >
               <FaWhatsapp />
             </a>
-            <a href="https://www.instagram.com/faria_eric" style={{ display: 'inline-block', fontSize: '2.5rem', color: '#E1306C' }}>
+            <a
+              href="https://www.instagram.com/faria_eric"
+              style={{
+                display: 'inline-block',
+                fontSize: '2.5rem',
+                color: '#E1306C',
+              }}
+            >
               <FaInstagram />
             </a>
-            <a href="mailto:eric.faria2003@gmail.com" style={{ display: 'inline-block', fontSize: '2.5rem', color: '#D44638' }}>
+            <a
+              href="mailto:eric.faria2003@gmail.com"
+              style={{
+                display: 'inline-block',
+                fontSize: '2.5rem',
+                color: '#D44638',
+              }}
+            >
               <FaEnvelope />
             </a>
           </div>
         </div>
       </section>
 
-      
       <div
-  className="whatsapp-float"
-  onClick={() => window.open('https://wa.me/19983224023', '_blank')}
->
-  <FaWhatsapp size={30} />
-</div>
+        className="whatsapp-float"
+        onClick={() => window.open('https://wa.me/19983224023', '_blank')}
+      >
+        <FaWhatsapp size={30} />
+      </div>
 
       <footer style={footerStyle} className="gradient-effect">
-        <p>&copy; 2024 - Eric Cesar Da Silva Junior. Todos os direitos reservados.</p>
+        <p>
+          &copy; 2024 - Eric Cesar Da Silva Junior. Todos os direitos
+          reservados.
+        </p>
       </footer>
     </div>
-
-    
   );
-} 
+}
 
 export default App;
-

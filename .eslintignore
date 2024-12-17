@@ -1,0 +1,3 @@
+# Ignorar pastas compiladas e dependências
+node_modules/
+build/

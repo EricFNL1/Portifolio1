@@ -23,7 +23,6 @@
   }
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -71,15 +70,13 @@
   }
 }
 
-
-
-  /* Ajuste o tamanho do botão no currículo */
-  #curriculo a {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-    font-size: 0.9rem;
+/* Ajuste o tamanho do botão no currículo */
+#curriculo a {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 0.9rem;
 }
 
 .App-header {
@@ -110,7 +107,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25D366;
+  background-color: #25d366;
   color: white;
   width: 60px;
   height: 60px;

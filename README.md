@@ -89,14 +89,13 @@ Este é o meu **portfólio pessoal** desenvolvido em **React**. O objetivo é ap
 
 🌐 Deploy
     O projeto está hospedado no GitHub Pages e pode ser acessado pelo link:
-
-    🔗 <a href="https://ericfnl1.github.io/Portifolio1/"> Visualizar Portfólio Online </a>
+    🔗  <a href="https://ericfnl1.github.io/Portifolio1/"> Visualizar Portfólio Online </a> <br>
 
 📧 Contato
-    LinkedIn: <a href="linkedin.com/in/ericf12">Clique aqui </a>  
-    WhatsApp: <a href="https://api.whatsapp.com/send/?phone=19983224023&text&type=phone_number&app_absent=0">Clique para enviar mensagem </a>
-    E-mail: eric.faria2003@gmail.com
-    Instagram: @faria_eric
+    LinkedIn: <a href="linkedin.com/in/ericf12">Clique aqui </a>  <br>
+    WhatsApp: <a href="https://api.whatsapp.com/send/?phone=19983224023&text&type=phone_number&app_absent=0">Clique para enviar mensagem </a> <br>
+    E-mail: eric.faria2003@gmail.com <br>
+    Instagram: @faria_eric <br>
 
 📜 Licença
     Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo como referência ou base para o seu próprio portfólio

@@ -8,6 +8,7 @@ import {
   FaSun,
   FaMoon,
   FaDownload,
+  FaGithub,
 } from 'react-icons/fa';
 import './App.css';
 import Slider from 'react-slick';
@@ -613,6 +614,18 @@ function App() {
               }}
             >
               <FaEnvelope />
+            </a>
+            <a
+              href="https://github.com/ericf12"
+              style={{
+                display: 'inline-block',
+                fontSize: '2.5rem',
+                color: '#333',
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
             </a>
           </div>
         </div>

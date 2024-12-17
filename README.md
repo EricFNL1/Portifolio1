@@ -88,7 +88,7 @@ Este é o meu **portfólio pessoal** desenvolvido em **React**. O objetivo é ap
     │── setupTests.js      # Configuração para testes
 
 🌐 Deploy
-    O projeto está hospedado no GitHub Pages e pode ser acessado pelo link:
+    O projeto está hospedado no GitHub Pages e pode ser acessado pelo link: <br>
     🔗  <a href="https://ericfnl1.github.io/Portifolio1/"> Visualizar Portfólio Online </a> <br>
 
 📧 Contato
